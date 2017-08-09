@@ -14,6 +14,8 @@
 		0ABD36281F3AAA4400FC023B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD36271F3AAA4400FC023B /* Assets.xcassets */; };
 		0ABD362B1F3AAA4400FC023B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD36291F3AAA4400FC023B /* LaunchScreen.storyboard */; };
 		0ABD36361F3AAA4400FC023B /* YTBottomFunctionBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD36351F3AAA4400FC023B /* YTBottomFunctionBarDemoTests.m */; };
+		0ABD36421F3AAEF500FC023B /* DDHouseBrokerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD36411F3AAEF500FC023B /* DDHouseBrokerBottomView.m */; };
+		0ABD36471F3AAF2B00FC023B /* DDHouseBrokerBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD36461F3AAF2B00FC023B /* DDHouseBrokerBottomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		0ABD36311F3AAA4400FC023B /* YTBottomFunctionBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTBottomFunctionBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABD36351F3AAA4400FC023B /* YTBottomFunctionBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTBottomFunctionBarDemoTests.m; sourceTree = "<group>"; };
 		0ABD36371F3AAA4400FC023B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABD36401F3AAEF500FC023B /* DDHouseBrokerBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHouseBrokerBottomView.h; sourceTree = "<group>"; };
+		0ABD36411F3AAEF500FC023B /* DDHouseBrokerBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHouseBrokerBottomView.m; sourceTree = "<group>"; };
+		0ABD36461F3AAF2B00FC023B /* DDHouseBrokerBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDHouseBrokerBottomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				0ABD361F1F3AAA4400FC023B /* AppDelegate.m */,
 				0ABD36211F3AAA4400FC023B /* ViewController.h */,
 				0ABD36221F3AAA4400FC023B /* ViewController.m */,
+				0ABD36401F3AAEF500FC023B /* DDHouseBrokerBottomView.h */,
+				0ABD36411F3AAEF500FC023B /* DDHouseBrokerBottomView.m */,
+				0ABD36461F3AAF2B00FC023B /* DDHouseBrokerBottomView.xib */,
 				0ABD36241F3AAA4400FC023B /* Main.storyboard */,
 				0ABD36271F3AAA4400FC023B /* Assets.xcassets */,
 				0ABD36291F3AAA4400FC023B /* LaunchScreen.storyboard */,
@@ -198,6 +206,7 @@
 				0ABD362B1F3AAA4400FC023B /* LaunchScreen.storyboard in Resources */,
 				0ABD36281F3AAA4400FC023B /* Assets.xcassets in Resources */,
 				0ABD36261F3AAA4400FC023B /* Main.storyboard in Resources */,
+				0ABD36471F3AAF2B00FC023B /* DDHouseBrokerBottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABD36231F3AAA4400FC023B /* ViewController.m in Sources */,
+				0ABD36421F3AAEF500FC023B /* DDHouseBrokerBottomView.m in Sources */,
 				0ABD36201F3AAA4400FC023B /* AppDelegate.m in Sources */,
 				0ABD361D1F3AAA4400FC023B /* main.m in Sources */,
 			);

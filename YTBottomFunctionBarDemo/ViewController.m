@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DDHouseBrokerBottomView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DDHouseBrokerBottomView *bottomV = [[NSBundle mainBundle] loadNibNamed:@"DDHouseBrokerBottomView" owner:nil options:nil][0];
+    bottomV.frame = CGRectMake(0, self.view.bounds.size.height - 45, self.view.bounds.size.width, bottomV.bounds.size.height);
+    [self.view addSubview:bottomV];
+//    bottomV.layer.borderWidth = 2;
+//    bottomV.layer.borderColor = [UIColor redColor].CGColor;
 }
 
 
